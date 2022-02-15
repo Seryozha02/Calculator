@@ -8,9 +8,6 @@ const inputNum1 = document.getElementById("inputNum1");
 const inputNum2 = document.getElementById("inputNum2");
 const plyus = document.querySelector(".plyus")
 const equals = document.querySelector(".equals")
-const fibonLeft = document.querySelector(".fibonLeft");
-const fibonRight = document.querySelector(".fibonRight");
-
 
 let i = 0;
 leftButton.addEventListener("click", function minus() {
@@ -97,7 +94,7 @@ function start() {
 
   fibonLeft.addEventListener("click", function() {
     document.getElementById("inputNumFibo").value = "";
-    n = 0;
+    value = 0;
 });
 
 let n = 0;
