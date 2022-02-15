@@ -1,0 +1,77 @@
+h1 {
+    color: white;
+    margin-top: 150px;
+}
+html{
+    background-color: sienna;
+}
+
+h2{
+    margin-top: 50px;
+}
+.header{
+    
+}
+     
+* {
+    box-sizing: border-box;
+}
+     
+body {
+    text-align: center;
+}
+ 
+/* Float columns */
+.column1 {
+    float: left;
+    width: 33%;
+    padding: 0 5px;
+    margin-top: 450px;
+    margin-left: 50px;
+}
+     
+.row {
+    margin: 0 -5px;
+}
+ 
+.row:after {
+    content: "";
+    display: table;
+}
+
+
+.column2 {
+    float: left;
+    width: 33%;
+    padding: 0 5px;
+    margin-left: 450px;
+    margin-top: 450px;
+}
+     
+.row {
+    margin: 0 -5px;
+}
+ 
+.row:after {
+    content: "";
+    display: table;
+}
+ 
+/* Style the cards */
+.card {
+    padding: 10px;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    }
+     
+.card:hover {
+    transform: scale(1.1);
+    background-color: black;
+    transition-duration: 2s;
+    color: white;
+}
+     
+.fa {
+    font-size: 50px;
+}

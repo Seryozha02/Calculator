@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Counter</title>
+  </head>
+  <body>
+    <div class="body">
+        <div class="parent">
+            <div class="main">
+                <div class="countText">
+                    <h1>COUNTER</h1>
+                </div>
+                <div class="number">
+                    <p id="num">0</p>
+                </div>
+                <div class="options">
+                    <button class="leftButton">LOWER COUNT</button>
+                    <button class="centerButton">RESET</button>
+                    <button class="rightButton">ADD COUNT</button>
+                </div>
+                <div class="addABParent">
+                    <button class="addAB">ADD(a)+(b)</button>
+                    <input type="number" id="inputNum1"><span class="plyus"></span>
+                    <input type="number" id="inputNum2"><span class="equals"></span>
+                    <span id="valueOfSum"></span>
+                </div>
+                <form name="form_main">
+                    <div>
+                      <span id="hour">00</span>:<span id="minute">00</span>:<span id="second">00</span>:<span id="millisecond">000</span>
+                    </div>
+                  
+                    <br />
+                  
+                    <button type="button" name="start">start</button>
+                    <button type="button" name="pause">pause</button>
+                    <button type="button" name="reset">reset</button>
+                  </form>
+                  
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
